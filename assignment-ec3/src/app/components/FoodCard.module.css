@@ -1,0 +1,15 @@
+.cardWrapper {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.cardImage {
+  height: 180px;
+  object-fit: cover;
+  width: 100%;
+}
+
+.cardBody {
+  flex: 1;
+}

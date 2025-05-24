@@ -1,12 +1,14 @@
 import Image from "next/image";
-import { Button, Container } from "react-bootstrap";
-import styles from "./page.module.css";
+import "bootstrap/dist/css/bootstrap.min.css";
+import Button from "react-bootstrap/Button";
+import NavbarMenu from "./components/NavbarMenu";
+import FoodCard from "./components/FoodCard";
 
 export default function Home() {
   return (
-    <div className={styles.page}>
-      <h1>Hello World</h1>
-      <Button variant="success">First Button In The Making</Button>
+    <div className={""}>
+      <NavbarMenu></NavbarMenu>
+      <FoodCard></FoodCard>
     </div>
   );
 }
